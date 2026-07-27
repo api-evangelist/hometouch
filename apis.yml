@@ -1,7 +1,26 @@
 aid: hometouch
 name: HomeTouch
-description: HomeTouch is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: HomeTouch (myhometouch.com) is a UK-based live-in home care marketplace
+  founded in 2015 by Dr Jamie Wilson, a former NHS dementia specialist. The CQC-regulated
+  service connects families with vetted professional carers for live-in, overnight,
+  and visiting care, with a specialism in dementia and complex-needs support, hospital
+  discharge, end-of-life, respite, and companionship care. Backed by 500 Global and
+  other impact investors, HomeTouch operates a carer marketplace alongside a fully
+  managed care service. The company publishes no public developer program or API;
+  this profile tracks its identity, published web properties, and domain security
+  posture for the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://myhometouch.com/wp-content/uploads/2026/03/hometouch-og-image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/hometouch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health Care
+- Home Care
+- Elderly Care
+- Dementia Care
+- Care Marketplace
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hometouch-domain-security.yml
 - type: Website
   url: https://myhometouch.com
+- type: Blog
+  url: https://myhometouch.com/articles
+- type: Pricing
+  url: https://myhometouch.com/pricing
+- type: Support
+  url: https://myhometouch.com/faqs
+- type: SignUp
+  url: https://myhometouch.com/find-a-carer
+- type: TermsOfService
+  url: https://myhometouch.com/managed-care-terms
+- type: PrivacyPolicy
+  url: https://myhometouch.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
