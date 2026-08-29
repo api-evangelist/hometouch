@@ -9,6 +9,17 @@ description: HomeTouch (myhometouch.com) is a UK-based live-in home care marketp
   managed care service. The company publishes no public developer program or API;
   this profile tracks its identity, published web properties, and domain security
   posture for the API Evangelist network.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
