@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "hometouch",
+    "captured_at": "2026-10-11T190359",
+    "source_url": "https://myhometouch.com",
+    "source_type": "Website",
+    "file": "hometouch-2026-10-11T190359.png",
+    "bytes": 983039,
+    "capture": "playwright-local"
+  }
+]
